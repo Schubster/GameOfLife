@@ -1,0 +1,33 @@
+﻿  Game.cpp
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(20,77): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(20,51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(98,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(98,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(148,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(156,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(156,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(174,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(175,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(201,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(202,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(229,87): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\gameOfLife\Game.cpp(229,58): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Main.cpp
+  Generating Code...
+  gameOfLife.vcxproj -> C:\Users\erwin.hornell\Desktop\gameOfLifeSFML\gameOfLife\x64\Debug\gameOfLife.exe
