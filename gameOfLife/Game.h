@@ -27,6 +27,7 @@ private:
 	bool gameStart = false;
 	int framesPerGen = 400;
 	int currentFrame = 0;
+	bool mouseDown = false;
 
 	//game obj
 	sf::RectangleShape rectangle;

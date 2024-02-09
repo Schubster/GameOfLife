@@ -66,7 +66,18 @@ void Game::pollEvents()
 			}
 				
 			break;
+
+		
 		case sf::Event::MouseButtonPressed:
+			this->mouseDown = true;
+			break;
+
+			case sf::Event::MouseButtonReleased:
+				this->mouseDown = false;
+				break;
+		}
+		if (this->mouseDown)
+		{
 			std::cout << "mouse pos:" << sf::Mouse::getPosition(*this->window).x << " " << sf::Mouse::getPosition(*this->window).y << "\n";
 
 			sf::Vector2i mousePos = sf::Mouse::getPosition(*this->window);
@@ -74,7 +85,7 @@ void Game::pollEvents()
 			int y = roundDown(mousePos.y);
 			if (!recExists(x, y))
 			{
-				this->rects.push_back(newRec(x,y));
+				this->rects.push_back(newRec(x, y));
 				//checkNeighbor(this->rects.back());
 				std::cout << "new rec";
 			}
@@ -82,10 +93,6 @@ void Game::pollEvents()
 			{
 				std::cout << "rec exists";
 			}
-			
-
-
-			break;
 		}
 	}
 }
