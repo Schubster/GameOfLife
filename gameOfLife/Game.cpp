@@ -60,7 +60,6 @@ void Game::pollEvents()
 				this->window->close();
 			if (this->ev.key.code == sf::Keyboard::Enter)
 			{
-				std::cout << "röven";
 				this->currentFrame = 0;
 				this->gameStart = !this->gameStart;
 			}
